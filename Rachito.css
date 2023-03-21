@@ -1,0 +1,144 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container_1{
+              display: flex;
+              justify-content: center;
+              
+              margin-left: -130px;
+              margin-top: -8px;
+            padding-bottom: 1px;
+}
+
+.select{
+                  height: 40px;
+                  width: 128px;
+                  border: none;
+                  border-right: 1px solid rgb(176, 174, 174);
+                  margin-top: 0px;
+                  margin-bottom: -1px;
+}
+
+
+               
+
+
+input[type="search"]{
+                     width: 596px;
+                     height: 40px;
+                     border: none;
+                     
+}
+
+.btn{
+      height: 40px;
+      width: 87px;
+      position: absolute;
+      left: 993px;
+      background-color:black;
+      color: white;
+      font-size: 17px;
+      border: none;
+      border-radius: 0px 7px 7px 0px;
+}
+
+.nav1{
+        background-color: rgb(194, 175, 214);
+        padding-top: 40px;
+        padding-bottom: 40px ;
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 2px solid rgb(107, 102, 102);
+}
+
+
+.image1{
+    width: 169px;
+    height: 92px;
+}
+
+.logo{
+    margin-top: -76px;
+       margin-left: -92px;
+       margin-right: 21px;
+       padding-top: 33px;
+}
+
+.icons {
+    font-size: 30px;
+    display: flex;
+    width: 84px;
+    justify-items: stretch;
+    justify-content: space-between;
+    gap: 55px;
+    
+          
+}
+
+i{
+     width: 100px;
+}
+
+.Container_2{
+               width: 218px;
+               height: 240px;
+              border: 1px solid rgb(159, 153, 153);
+              margin-left: 20px;
+              background-color: white;
+}
+
+.selector i{
+            margin-left: 46px;
+            font-size: 20px;
+            margin-top: 23px;
+            
+        
+}
+
+.Container_2 ul {
+
+                    list-style: none;
+}
+
+.Container_2 ul li{
+                    line-height: 60px;
+
+
+}
+
+.Container_2 ul li:hover{
+
+                         background-color: rgb(175, 175, 247);
+             
+}
+
+
+
+
+
+
+
+#Menu{
+         display: none;
+}
+
+.Container_2{
+                display: none;
+}
+
+#Menu:checked + .selector{
+                            
+}
+
+#Menu:checked ~ .Container_2{
+                                 display: block;
+}
+
+.nav_2{
+         background-color: rgb(194, 175, 214);
+}
+
+
